@@ -1,0 +1,309 @@
+CRITICAL - 2024-09-26 16:53:25 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: software/update/Cisco%20Packet%20Tracer]
+in APPPATH\Controllers\SoftwareController.php on line 65.
+ 1 APPPATH\Controllers\SoftwareController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\SoftwareController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SoftwareController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftwareController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 16:54:12 --> ErrorException: Undefined array key "version"
+[Method: GET, Route: software/update/Cisco%20Packet%20Tracer]
+in APPPATH\Controllers\SoftwareController.php on line 67.
+ 1 APPPATH\Controllers\SoftwareController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "version"', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\SoftwareController.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SoftwareController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftwareController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 16:54:26 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: software/update/Cisco%20Packet%20Tracer]
+in APPPATH\Controllers\SoftwareController.php on line 65.
+ 1 APPPATH\Controllers\SoftwareController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\SoftwareController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SoftwareController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftwareController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 16:57:05 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "(:num)6.6"
+[Method: GET, Route: software/update/%28:num%296.6]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('software/update/(:num)6.6')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('software/update/(:num)6.6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 16:58:04 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "(:num)6.6"
+[Method: GET, Route: software/update/%28:num%296.6]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('software/update/(:num)6.6')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('software/update/(:num)6.6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 17:05:39 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: software/edit/6]
+in APPPATH\Controllers\SoftwareController.php on line 43.
+ 1 APPPATH\Controllers\SoftwareController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\SoftwareController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SoftwareController->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftwareController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 17:06:29 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: software/edit/6]
+in APPPATH\Controllers\SoftwareController.php on line 43.
+ 1 APPPATH\Controllers\SoftwareController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\SoftwareController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SoftwareController->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftwareController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 17:08:11 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: software/edit/6]
+in APPPATH\Controllers\SoftwareController.php on line 43.
+ 1 APPPATH\Controllers\SoftwareController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\SoftwareController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SoftwareController->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftwareController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 17:08:40 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: software/edit/6]
+in APPPATH\Controllers\SoftwareController.php on line 43.
+ 1 APPPATH\Controllers\SoftwareController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\SoftwareController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SoftwareController->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftwareController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 17:10:43 --> ErrorException: Undefined variable $idSoftware
+[Method: GET, Route: software/edit/6]
+in APPPATH\Views\software\edit.php on line 4.
+ 1 APPPATH\Views\software\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idSoftware', 'C:\\xampp\\htdocs\\academia\\app\\Views\\software\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\academia\\app\\Views\\software\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('software/edit', [], true)
+ 5 APPPATH\Controllers\SoftwareController.php(41): view('software/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SoftwareController->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 17:11:14 --> ErrorException: Undefined variable $nombre
+[Method: GET, Route: software/edit/6]
+in APPPATH\Views\software\edit.php on line 4.
+ 1 APPPATH\Views\software\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\academia\\app\\Views\\software\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\academia\\app\\Views\\software\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('software/edit', [], true)
+ 5 APPPATH\Controllers\SoftwareController.php(41): view('software/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SoftwareController->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 17:12:50 --> BadMethodCallException: Call to undefined method App\Models\SoftwareM::edit
+[Method: GET, Route: software/edit/3]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\SoftwareController.php(37): CodeIgniter\Model->__call('edit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SoftwareController->edit('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftwareController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 17:13:14 --> BadMethodCallException: Call to undefined method App\Models\SoftwareM::edit
+[Method: GET, Route: software/edit/3]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\SoftwareController.php(37): CodeIgniter\Model->__call('edit', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SoftwareController->edit('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftwareController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 17:14:13 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: software/edit/3]
+in APPPATH\Controllers\SoftwareController.php on line 40.
+ 1 APPPATH\Controllers\SoftwareController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\SoftwareController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SoftwareController->edit('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftwareController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+INFO - 2024-09-26 19:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 19:36:26 --> ErrorException: Undefined variable $nombre
+[Method: GET, Route: software]
+in APPPATH\Views\menu.php on line 40.
+ 1 APPPATH\Views\menu.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\academia\\app\\Views\\menu.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\academia\\app\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\SoftwareController.php(15): view('menu')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SoftwareController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 19:39:03 --> ErrorException: Undefined variable $nombre
+[Method: GET, Route: software]
+in APPPATH\Views\menu.php on line 40.
+ 1 APPPATH\Views\menu.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\academia\\app\\Views\\menu.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\academia\\app\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\SoftwareController.php(15): view('menu')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SoftwareController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+INFO - 2024-09-26 19:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 19:54:33 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: materias]
+in APPPATH\Views\menu.php on line 39.
+ 1 APPPATH\Views\menu.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\menu.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\academia\\app\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\MateriasController.php(45): view('menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+INFO - 2024-09-26 19:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 19:54:33 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: materias]
+in APPPATH\Views\menu.php on line 39.
+ 1 APPPATH\Views\menu.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\menu.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\academia\\app\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\MateriasController.php(45): view('menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 20:23:39 --> ErrorException: Undefined array key "correo"
+[Method: POST, Route: docente/insert]
+in APPPATH\Controllers\DocenteController.php on line 70.
+ 1 APPPATH\Controllers\DocenteController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correo"', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\DocenteController.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DocenteController->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 20:24:59 --> ErrorException: Undefined array key "pass"
+[Method: POST, Route: docente/insert]
+in APPPATH\Controllers\DocenteController.php on line 71.
+ 1 APPPATH\Controllers\DocenteController.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pass"', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\DocenteController.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DocenteController->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 20:25:37 --> ErrorException: Undefined property: stdClass::$idSoftware
+[Method: GET, Route: docente]
+in APPPATH\Views\docente\show.php on line 26.
+ 1 APPPATH\Views\docente\show.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idSoftware', 'C:\\xampp\\htdocs\\academia\\app\\Views\\docente\\show.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\academia\\app\\Views\\docente\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('docente/show', [], true)
+ 5 APPPATH\Controllers\DocenteController.php(16): view('docente/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DocenteController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 20:34:23 --> ErrorException: Undefined variable $software
+[Method: GET, Route: software/edit/3]
+in APPPATH\Views\software\edit.php on line 9.
+ 1 APPPATH\Views\software\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $software', 'C:\\xampp\\htdocs\\academia\\app\\Views\\software\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\academia\\app\\Views\\software\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('software/edit', [], true)
+ 5 APPPATH\Controllers\SoftwareController.php(39): view('software/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SoftwareController->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 20:35:57 --> ErrorException: Undefined variable $software
+[Method: GET, Route: software/edit/3]
+in APPPATH\Views\software\edit.php on line 9.
+ 1 APPPATH\Views\software\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $software', 'C:\\xampp\\htdocs\\academia\\app\\Views\\software\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\academia\\app\\Views\\software\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('software/edit', [], true)
+ 5 APPPATH\Controllers\SoftwareController.php(39): view('software/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SoftwareController->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftwareController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-26 20:39:23 --> ErrorException: Undefined array key "idSoftware"
+[Method: POST, Route: software/update/]
+in APPPATH\Controllers\SoftwareController.php on line 48.
+ 1 APPPATH\Controllers\SoftwareController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idSoftware"', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\SoftwareController.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SoftwareController->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SoftwareController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')

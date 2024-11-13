@@ -1,0 +1,25 @@
+CRITICAL - 2024-09-30 19:11:59 --> Error: Call to a member function where() on null
+[Method: GET, Route: materias/edit/3]
+in APPPATH\Controllers\MateriasController.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriasController->edit('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriasController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
+CRITICAL - 2024-09-30 19:12:47 --> ErrorException: Undefined property: stdClass::$idmateria
+[Method: GET, Route: materias/edit/3]
+in APPPATH\Views\materias\edit.php on line 7.
+ 1 APPPATH\Views\materias\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idmateria', 'C:\\xampp\\htdocs\\academia\\app\\Views\\materias\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\academia\\app\\Views\\materias\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('materias/edit', [], true)
+ 5 APPPATH\Controllers\MateriasController.php(38): view('materias/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriasController->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\academia\\public\\index.php')
