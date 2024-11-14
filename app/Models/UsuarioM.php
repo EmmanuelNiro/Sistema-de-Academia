@@ -13,7 +13,7 @@ class UsuarioM extends Model
     protected $returnType       = 'object';
     protected $useSoftDeletes   = true;
     protected $protectFields    = true;
-    protected $allowedFields    = ['correo','pass'];
+    protected $allowedFields    = ['idDocente', 'nombre', 'apellido', 'aMterno', 'aPaterno', 'correo','pass'];
 
     // Dates
     protected $useTimestamps = false;
@@ -40,13 +40,13 @@ class UsuarioM extends Model
     protected $afterDelete    = [];
 
 
-    public function valida ($nombre, $pass){
+    public function valida($correo, $password){
         $db = db_connect();
-        $sql = "select nombre from usuario
-        where nombre = '".$nombre."' and $pass ='". $pass."'";
-
-        $query= $db -> query($sql);
-
+        
+        // Usar una consulta preparada para evitar inyecciones SQL
+        $sql = "SELECT correo, pass FROM docente WHERE email = ? AND password = ?";
+        $query = $db->query($sql, [$correo, $password]);
+        
         return $query->getResult();
     }
 }
