@@ -8,11 +8,13 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 
 //Login
+
 $routes->get('/usuario','loginController::index');
 $routes->get('/usuario/salir','loginController::salir');
 $routes->post('/usuario/acceder','loginController::acceder');
-
-
+$routes->get('/usuario/perfil','Usuario::perfil');
+$routes->post('/usuario/registrarUsuario(:num)', 'Usuario::registrarUsuario/$1');
+$routes->post('/usuario/registrarUsuario', 'Usuario::registrarUsuario');
 
 //Docente
 
