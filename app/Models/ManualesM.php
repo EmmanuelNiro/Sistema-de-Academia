@@ -4,16 +4,16 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class UsuarioM extends Model
+class ManualesM extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'usuario';
-    protected $primaryKey       = 'idUsuario';
+    protected $table            = 'manuales';
+    protected $primaryKey       = 'idManual';
     protected $useAutoIncrement = true;
-    protected $returnType       = 'object';
-    protected $useSoftDeletes   = true;
+    protected $returnType       = 'obeject';
+    protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['idUsuario', 'nombre', 'apellidos', 'correo','pass', 'tipo'];
+    protected $allowedFields    = ['idManual', 'titulo', 'titulo', 'autor', 'paginas', 'fechaCreacion'];
 
     // Dates
     protected $useTimestamps = false;
@@ -39,14 +39,12 @@ class UsuarioM extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 
-
-    public function valida($correo, $pass){
-        $db = db_connect();
-        
-        // Usar una consulta preparada para evitar inyecciones SQL
-        $sql = "SELECT correo, tipo FROM usuario WHERE correo = ? AND pass = ?";
-        $query = $db->query($sql, [$correo, $pass]);
-        
-        return $query->getResult();
+   /*public function get_nombre_docente($idPelicula) {
+        return $this->db->table('pelicula')
+                        ->select('nombre')
+                        ->where('idPelicula', $idPelicula)
+                        ->get()
+                        ->getRow()->nombre ?? 'Desconocida';
     }
+*/
 }

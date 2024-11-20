@@ -10,6 +10,18 @@ class DocenteController extends BaseController
     public $csrfProtection = 'session';
     public $tokenRandomize = true;
     protected $helpers = ['form'];
+      
+    public function valida(){
+        $session = session();
+        $session->has('logged_in');
+        
+            if($session->has('logged_in')){
+                return redirect()->to(base_url('/usuario'));
+                
+            }
+        
+        print_r($_SESSION);
+    }
 
 
     

@@ -11,22 +11,22 @@
 <div class="container mt-5">  
     <div class="row justify-content-center">
         <div class="col-md-6 login-container">
-            <h2 class="text-center mb-4">Conectar a mi cuenta</h2>
-            <p class="text-center">Ingresar e-mail y contraseña</p>
+            <h2 class="text-center mb-4">Iniciar Sesion</h2>
+            <p class="text-center">Ingrese e-mail y contraseña con el que se registro</p>
             <form action="<?=base_url('usuario/acceder'); ?>" method="POST">
                 <div class="form-group">
-                    <input type="text" class="form-control input-style" id="email" name="email" placeholder="Email" required>
+                    <input type="text" class="form-control input-style" id="correo" name="correo" placeholder="Correo" required>
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control input-style" id="password" name="password" placeholder="Contraseña" required>
+                    <input type="password" class="form-control input-style" id="pass" name="pass" placeholder="Contraseña" required>
                 </div>
                 <button type="submit" class="btn btn-purple btn-block">
-                    <i class="fas fa-birthday-cake"></i> Iniciar Sesión
+                    <i class="fas fa-raccoon"></i> Iniciar Sesión <i class="fas fa-raccoon"></i>
                 </button>
             </form>
             <div class="text-center mt-3">
-                <span>¿Nuevo Cliente?</span>
-                <a href="/usuario/miCuenta" class="register-link">Crear Cuenta</a>
+                <span>¿Nuevo Usuario?</span>
+                <a href="/usuario/perfil" class="register-link">Registrese</a>
             </div>
         </div>
     </div>

@@ -12,15 +12,16 @@ class Usuario extends BaseController{
 
     public function acceder(){
         $correo = $_POST['correo'];
-        $password = $_POST['pass'];
+        $pass = $_POST['pass'];
 
         $usuarioM = model ('UsuarioM');
         $session = session ();
 
-        $result = $usuarioM->valida($correo, $password);
+        $result = $usuarioM->valida($correo, $pass);
         if (count($result)> 0 ){
             $newdata = [
-                'correo' => $result [0]->email,
+                'correo' => $result [0]->correo,
+                'tipo' => $result[0]->tipo,
                 'logged_in' => TRUE,
             ];
 
@@ -34,7 +35,7 @@ class Usuario extends BaseController{
         }
 
         public function salir(){
-            $array_items = ['correo', 'pass','logged_in' ];
+            $array_items = ['correo', 'tipo','logged_in' ];
             $session = session();
             $session -> remove($array_items);
 
@@ -52,7 +53,7 @@ class Usuario extends BaseController{
 
             $validation->setRules([
                 'correo'  => 
-                'required|valid_email|is_unique[
+                'required|valid_correo|is_unique[
                 usuario.correo]',
                 'pass' => 'required|min_lenght[6]',
             ]);

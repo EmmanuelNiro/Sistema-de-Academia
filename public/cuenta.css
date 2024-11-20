@@ -1,0 +1,85 @@
+body {
+    background-color: #c9ff77; /* Fondo verde claro */
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #2e7d32; /* Fondo verde oscuro */
+    padding: 10px;
+    text-align: right;
+}
+
+.header a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.login-container {
+    background-color: white;
+    border: 1px solid #08890c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #043e07; /* Verde medio */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.input-style {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #114f13;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    background-color: #e8edb5; /* Fondo amarillo verdoso claro */
+}
+
+.btn-purple {
+    background-color: #388e3c; /* Verde medio */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:(#0b480d, #0b660f); /* Gradiente de verde claro a medio */
+}
+
+.btn-purple i {
+    margin: 0 5px;
+}
+
+.btn-purple:hover {
+    background-color: #2e7d32; /* Verde oscuro */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-3 {
+    margin-top: 15px;
+}
+
+.register-link {
+    color: #06490a; /* Verde medio */
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
