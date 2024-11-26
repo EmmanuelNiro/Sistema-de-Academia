@@ -1,0 +1,35 @@
+/* Estilo para el fondo del cuerpo */
+body {
+    background-color: #FFFACD; /* Amarillo pálido */
+}
+
+/* Estilo para la navbar */
+#navbar {
+    background-color: #4B5320; /* Verde militar */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+}
+
+/* Estilo para los enlaces de la navbar */
+.navbar-nav .nav-link {
+    color: white; /* Color blanco para los enlaces del navbar */
+}
+
+.navbar-toggler {
+    background-color: #556B2F; /* Verde olivo */
+    border: none;
+    padding: 0.25rem 0.5rem; /* Ajusta el padding para hacerlo más delgado */
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-nav .nav-link {
+    color: white; /* Texto blanco */
+}
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Sombrea al pasar el cursor */
+    color: white; /* Mantiene el texto blanco */
+}

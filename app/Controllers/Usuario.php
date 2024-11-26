@@ -12,27 +12,27 @@ class Usuario extends BaseController{
 
     public function acceder(){
         $correo = $_POST['correo'];
-        $pass = $_POST['pass'];
+        $password = $_POST['password'];
 
-        $usuarioM = model ('UsuarioM');
-        $session = session ();
+        $usuario = model('UsuarioP');
+        $session = session();
 
-        $result = $usuarioM->valida($correo, $pass);
-        if (count($result)> 0 ){
+        // Supongo que la función valida ahora debería buscar por correo y password en lugar de usuario y password
+        $result = $usuario->valida($correo, $password);
+        if (count($result) > 0) {
             $newdata = [
-                'correo' => $result [0]->correo,
-                'tipo' => $result[0]->tipo,
+                'correo'     => $result[0]->correo,  // Almacena el correo en la sesión
+                'tipo'      => $result[0]->tipo,
                 'logged_in' => TRUE,
             ];
 
             $session->set($newdata);
             return redirect()->to(base_url('/menu'));
-        }else {
+        } else {
             $session->destroy();
-            return redirect()->to(base_url('/usuario')
-        );
+            return redirect()->to(base_url('/usuario'));
         }
-        }
+    }
 
         public function salir(){
             $array_items = ['correo', 'tipo','logged_in' ];

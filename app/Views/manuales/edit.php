@@ -6,11 +6,11 @@
 
         
     <form action="<?=base_url('manuales/update/'); ?>" method="POST">
-    <input type="hidden" name="idManuales" value="<?=$manuales[0]->idManuales;?>" >    
+    <input type="hidden" name="idManual" value="<?=$manuales[0]->idManual;?>" >    
     <div class="mb-3">
         <br>
             <label for="titulo" class="form-label">Titulo</label>
-            <input name="titulo" type="text" value="<?=$manuales[0]->nombre; ?>"
+            <input name="titulo" type="text" value="<?=$manuales[0]->titulo; ?>"
                  class="form-control" id="titulo" placeholder="Titulo">
 
                  <br>

@@ -3,7 +3,7 @@
         <div class="col">
 
         <h2>Agregar Software</h2>
-        <?= validation_list_errors() ?>
+        <?validation_list_errors() ?>
 
     <form action="<?=base_url('software/insert'); ?>" method="POST">
     <input type="hidden" name = "<?= csrf_token() ?>" value="<? csrf_hash() ?>">

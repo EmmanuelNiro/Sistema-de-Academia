@@ -10,10 +10,10 @@ class ManualesM extends Model
     protected $table            = 'manuales';
     protected $primaryKey       = 'idManual';
     protected $useAutoIncrement = true;
-    protected $returnType       = 'obeject';
+    protected $returnType       = 'object';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['idManual', 'titulo', 'titulo', 'autor', 'paginas', 'fechaCreacion'];
+    protected $allowedFields    = ['idManual', 'titulo', 'autor', 'paginas', 'fechaCreacion'];
 
     // Dates
     protected $useTimestamps = false;

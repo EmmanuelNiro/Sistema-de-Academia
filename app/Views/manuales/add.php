@@ -2,26 +2,25 @@
     <div class="row">
         <div class="col">
 
-        <h2>Agregar Manuales</h2>
-        <?validation_list_errors() ?>
+            <h2>Agregar manuales</h2>
 
-    <form action="<?=base_url('manuales/insert'); ?>" method="POST">
-    <input type ="hidden" name="<?= csrf_token() ?>" value="<?= csrf_hash() ?>"    
-    />
-    <div class="mb-3">
-            <label for="manuales" class="form-label">Manuales</label>
 
-            <input name="titulo" type="text" class="form-control" id="titulo" requerid 
-            placeholder="Titulo" value="<?= set_value('titulo')?>">
+            <form action="<?=base_url('manuales/insert'); ?>" method="POST">
+                <input type="hidden" name= "<?= csrf_token() ?>" value="<? csrf_hash() ?>">
 
-            <input name="paginas" type="text" class="form-control" id="paginas" requerid 
-            placeholder="Cantidad de paginas" value="<?= set_value('paginas') ?>">
-            
-            
+                <div class="mb-3">
+                    <label for="manuales" class="form-label">Manuales</label>
+                    <input name="titulo" type="text" class="form-control" id="titulo" required 
+                    placeholder="Titulo">
+
+                    <label for="manuales" class="form-label">Paginas</label>
+                    <input name="paginas" type="text" class="form-control" id="paginas" required 
+                           placeholder="Cantidad de páginas">
+                
+            </div>
+            <input type="submit" class="btn btn-success" value="Agregar">
+            </form>
+        
         </div>
-        <input type="submit" class="btn btn-success" value="Agregar">
-        </form>
-    
-    </div>
     </div>
 </div>

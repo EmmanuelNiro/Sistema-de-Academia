@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Models\ManualesM;
 
-class MateriasController extends BaseController
+class ManualesController extends BaseController
 {
 
    
@@ -45,11 +45,11 @@ class MateriasController extends BaseController
         view('footer');
     }
 
-    public function edit($idManuales){   //get
+    public function edit($idManual){   //get
        
-       $idManuales =$data['idManuales'] = $idManuales;
+       $idManual =$data['idManual'] = $idManual;
        $manualesModel = model ('ManualesM');
-       $data['manuales'] = $manualesModel -> where ('idManuales',$idManuales) -> findAll();
+       $data['manuales'] = $manualesModel -> where ('idManual',$idManual) -> findAll();
         return 
         view('head') .
         view('menu') . 
@@ -61,7 +61,7 @@ class MateriasController extends BaseController
 
     public function update(){
         $manualesModel = model('ManualesM');
-        $idManuales = $_POST['idManuales'];
+        $idManual = $_POST['idManual'];
         $data = [
             
             'titulo' => $_POST['titulo'],
@@ -70,14 +70,14 @@ class MateriasController extends BaseController
 
         ];
 
-            $manualesModel -> set ($data)->where('idManuales', $idManuales) -> update ();
+            $manualesModel -> set ($data)->where('idManual', $idManual) -> update ();
         return redirect () -> to (base_url('/manuales'));
    
     }
 
 
     public function insert(){ //post
-       echo 'Rellene los campos solicitados';
+
 
         if (! $this -> request -> is('post')){
             $this->index();
@@ -86,19 +86,17 @@ class MateriasController extends BaseController
         $rules = [
             'titulo' => 'required',
 
-            "Autor" => 'required'
+            "paginas" => 'required'
         ];
 
         $data = [
     
-          "nombre" => $_POST['nombre'],
+          "titulo" => $_POST['titulo'],
           
-          "planEstudios" => $_POST['planEstudios']
+          "paginas" => $_POST['paginas']
         ] ;
 
-       /* $manualesModel = model('ManualesM');
-        $manualesModel->insert($data);
-        return redirect()->to(base_url('/manuales'));*/
+      
 
 
         if (! $this -> validate($rules)){
@@ -121,11 +119,11 @@ class MateriasController extends BaseController
     }
 
 
-    public function delete($idManuales){
+    public function delete($idManual){
        
 
         $manualesModel = model('ManualesM');
-        $manualesModel->delete($idManuales);
+        $manualesModel->delete($idManual);
         return redirect()->to(base_url('/manuales'));
     }
 
