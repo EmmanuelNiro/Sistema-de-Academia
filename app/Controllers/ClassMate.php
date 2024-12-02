@@ -23,6 +23,7 @@ class ClassMate extends BaseController
                 <div class="menu-box">
                     <h1>Bienvenido, Administrador</h1>
                     <h2>¿Qué desea hoy?</h2>
+                    <a href="' . base_url('/docentes') . '" class="menu-option">Editar Docentes</a>
                     <a href="' . base_url('/materias') . '" class="menu-option">Editar Materias</a>
                     <a href="' . base_url('/videos') . '" class="menu-option">Editar Videos</a>
                     <a href="' . base_url('/software') . '" class="menu-option">Editar Software</a>

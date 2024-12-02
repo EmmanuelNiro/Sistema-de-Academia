@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -31,21 +32,9 @@
     <div class="mb-3">
         <label for="pass" class="form-label">Contraseña</label>
         <input type="password" class="form-control" id="pass" name="pass" required>
-    </div>
-    <div class="mb-3">
-        <label for="tipo" class="form-label">Tipo de Usuario</label>
-        <select class="form-control" id="tipo" name="tipo" required>
-            <option value="1">Docente</option>
-            <option value="2">Alumno</option>
-        </select>
-    </div>
-    <button type="submit" class="btn btn-primary">Registrar</button>
-</form>
 
-            <div class="text-center mt-3">
-                <span>¿Ya tienes una cuenta?</span>
-                <a href="<?= base_url('/usuario'); ?>" class="login-link">Iniciar Sesión</a>
-            </div>
+    </div>
+            </form>
         </div>
     </div>
 </div>

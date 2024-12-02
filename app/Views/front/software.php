@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?= base_url('consulta.css') ?>">
-    <title>Consulta de Datos</title>
+    <title>Software</title>
 </head>
 <body>
     <div class="container">
-        <h1>Consulta de Datos</h1>
+        <h1>Software</h1>
         <table>
             <thead>
                 <tr>
@@ -38,5 +38,6 @@
             <a href="#">&raquo;</a>
         </div>
     </div>
+    
 </body>
 </html>

@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Controllers;
 
 use App\Models\UsuarioM;
@@ -61,9 +60,14 @@ class Usuario extends BaseController
         $session = session();
         $session->destroy();
 
+
+
+
         $this->response->setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
         $this->response->setHeader('Pragma', 'no-cache');
         $this->response->setHeader('Expires', '0');
+
+
 
         return redirect()->to(base_url('/usuario'));
     }
@@ -93,6 +97,7 @@ class Usuario extends BaseController
                 view('footer');
         } else {
             $usuarioM = model('UsuarioM');
+
             $data = [
                 'correo'     => $this->request->getPost('correo'),
                 'nombre'     => $this->request->getPost('nombre'),
@@ -126,3 +131,4 @@ class Usuario extends BaseController
             view('footer');
     }
 }
+?>

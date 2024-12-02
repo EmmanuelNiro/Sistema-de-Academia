@@ -18,17 +18,31 @@ body {
     color: white; /* Color blanco para los enlaces del navbar */
 }
 
+/* Estilo para el botón navbar-toggler */
 .navbar-toggler {
-    background-color: #556B2F; /* Verde olivo */
-    border: none;
-    padding: 0.25rem 0.5rem; /* Ajusta el padding para hacerlo más delgado */
+    background: none; /* Elimina el fondo */
+    border: none; /* Elimina el borde */
+    padding: 0; /* Elimina el padding */
+    width: 70px; /* Ajustar el ancho del botón */
+    height: 70px; /* Ajustar la altura del botón */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("<?= base_url('classmate.png') ?>"); /* Ruta del icono personalizado */
+    background-size: cover; /* Ajustar tamaño del icono */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%; /* Ajustar para llenar el botón */
+    height: 100%; /* Ajustar para llenar el botón */
 }
+
 .navbar-nav .nav-link {
     color: white; /* Texto blanco */
 }
+
 .navbar-nav .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.1); /* Sombrea al pasar el cursor */
     color: white; /* Mantiene el texto blanco */

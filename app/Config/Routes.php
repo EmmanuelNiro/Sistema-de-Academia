@@ -55,5 +55,20 @@ $routes->get('/manuales/edit/(:num)', 'ManualesController::edit/$1');
 $routes->post('/manuales/update/', 'ManualesController::update');
 $routes->get('/manuales/delete/(:num)', 'ManualesController::delete/$1');
 
+
+//videos
+
+$routes->get('/videos', 'VideosController::index');
+$routes->get('/videos/add','VideosController::add');
+$routes->post('/videos/insert','VideosController::insert');
+$routes->get('/videos/edit/(:num)','VideosController::edit/$1');
+$routes->post('/videos/update/','VideosController::update');
+$routes->get('/videos/delete/(:num)','VideosController::delete/$1');
+
 //consultas
-$routes->get('/front', 'ConsultasSF::index');
+$routes->get('front/Software', 'Front::frontSoftware');
+$routes->get('front/Manuales', 'Front::frontManuales');
+$routes->get('front/Videos', 'Front::frontVideos');
+$routes->get('front/Materias', 'Front::frontMaterias');
+
+
