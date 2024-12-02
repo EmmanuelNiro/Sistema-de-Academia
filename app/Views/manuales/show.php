@@ -1,9 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tablas.css">
+    <title>Document</title>
+</head>
+<body>
 <div class="container">
 
 <div class="row">
     <div class="col">
         <h1>Manuales</h1>
         <a href="<?=base_url('manuales/add');?> " class="btn btn-success">Agregar</a>
+        
     </div>
 </div>
 
@@ -33,3 +43,7 @@
         </div>
     </div>
 </div>
+
+</body>
+</html>
+<link rel="stylesheet" href="tablas.css">

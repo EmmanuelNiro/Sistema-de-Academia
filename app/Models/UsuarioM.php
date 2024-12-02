@@ -14,7 +14,7 @@ class UsuarioM extends Model
     protected $useSoftDeletes   = true;
     protected $protectFields    = true;
     protected $allowedFields    = ['idUsuario', 'nombre', 'apellidos', 'correo','pass', 'tipo'];
-
+  
     // Dates
     protected $useTimestamps = false;
     protected $dateFormat    = 'datetime';
@@ -40,13 +40,15 @@ class UsuarioM extends Model
     protected $afterDelete    = [];
 
 
-    public function valida($correo, $pass){
-        $db = db_connect();
-        
-        // Usar una consulta preparada para evitar inyecciones SQL
-        $sql = "SELECT correo, tipo FROM usuario WHERE correo = ? AND pass = ?";
-        $query = $db->query($sql, [$correo, $pass]);
-        
-        return $query->getResult();
+    
+        public function valida($correo, $pass)
+        {
+            $usuario = $this->where('correo', $correo)->first();
+            if ($usuario && password_verify($pass, $usuario->pass)) { // Cambiar [] a ->
+                return $usuario;
+            }
+            return false;
+        }
     }
-}
+        
+

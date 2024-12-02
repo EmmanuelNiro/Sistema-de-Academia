@@ -13,7 +13,7 @@ class SoftwareM extends Model
     protected $returnType       = 'object';
     protected $useSoftDeletes   = false;
     protected $protectFields    = false;
-    protected $allowedFields    = ['idSoftware','nombre','version'];
+    protected $allowedFields    = ['idSoftware','nombre','version', 'desarrolladora'];
 
     // Dates
     protected $useTimestamps = false;

@@ -1,38 +1,126 @@
 body {
-    display: flex;
-    justify-content: center; /* Centra los botones horizontalmente */
-    align-items: center; /* Centra los botones verticalmente */
-    height: 100vh;
-    background-color: #eaf18f;
-    margin: 0;
-}
-
-.container {
-    text-align: left; /* Alinea el texto a la izquierda */
-    text-align: up;
+    background-color: #f0f4d7; /* Fondo verde claro */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #000000; /* Color del texto */
 }
 
 h1 {
-    font-size: 3rem; /* Texto en grande */
-    margin-bottom: 200px; /* Espacio debajo del título */
+    color: #000000; /* Color del texto del título */
 }
 
-.btn-container {
+.container {
     display: flex;
-    content: center; /* Centra los botones horizontalmente */
-    gap: 50 px; /* Espacio entre los botones */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.btn {
-    padding: 15px 30px;
-    font-size: 1.5rem;
-    background-color: #556B2F; /* Verde olivo */
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    background-color: #3B5323; /* Color verde olivo */
     color: white;
-    border: none;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 0 20px;
     transition: background-color 0.3s;
 }
 
-.btn:hover {
-    background-color: #6B8E23; /* Sombra verde */
+.button img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #556B2F; /* Color verde olivo más oscuro */
+}
+
+body {
+    background-color: #f0f4d7; /* Fondo verde claro */
+    font-family: Arial, sans-serif;
+    color: #000000; /* Color del texto */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #000000; /* Color del texto del título */
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 50px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    background-color: #3B5323; /* Color verde olivo */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+    width: 200px;
+}
+
+.button img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #556B2F; /* Color verde olivo más oscuro */
+}
+
+.logo-container {
+    position: relative;
+    width: 50%;
+    text-align: left;
+}
+
+.logo-container img {
+    width: 80%;
+    height: auto;
+}
+
+.welcome-text {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.logo-text {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    transform: rotate(-45deg);
+    color: #f8f8a2; /* Color verde académico */
+    font-size: 30px;
+    font-weight: bold;
 }

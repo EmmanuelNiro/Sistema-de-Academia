@@ -17,6 +17,10 @@
             <label for="software" class="form-label">Version</label>
             <input name="version" type="text" class="form-control" id="version" required 
             placeholder="Version actual" value="<?=set_value('version')?>">
+
+            <label for="software" class="form-label">Desarrolladora</label>
+            <input name="desarrolladora" type="text" class="form-control" id="desarrolladora" required 
+            placeholder="Empresa desarroladora" value="<?=set_value('desarrolladora')?>">
             
             
           

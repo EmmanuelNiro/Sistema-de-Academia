@@ -8,6 +8,8 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 
 $routes->get('/inicio','inicio::index');
+$routes->get('/classmate','classmate::index');
+$routes->get('/alumnos','alumnos::index');
 
 //Login
 $routes->get('/usuario','Usuario::index');
@@ -15,6 +17,7 @@ $routes->get('/usuario/salir','Usuario::salir');
 $routes->post('/usuario/acceder','Usuario::acceder');
 $routes->get('/usuario/perfil','Usuario::perfil');
 $routes->post('/usuario/registrarUsuario(:num)', 'Usuario::registrarUsuario/$1');
+$routes->get('/usuario/registrarUsuario', 'Usuario::registrarUsuario');
 $routes->post('/usuario/registrarUsuario', 'Usuario::registrarUsuario');
 
 //Docente
@@ -51,3 +54,6 @@ $routes->post('/manuales/insert', 'ManualesController::insert');
 $routes->get('/manuales/edit/(:num)', 'ManualesController::edit/$1');
 $routes->post('/manuales/update/', 'ManualesController::update');
 $routes->get('/manuales/delete/(:num)', 'ManualesController::delete/$1');
+
+//consultas
+$routes->get('/front', 'ConsultasSF::index');

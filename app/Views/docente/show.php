@@ -4,6 +4,7 @@
     <div class="col">
         <h1>Docente</h1>
         <a href="<?=base_url('docente/add');?> " class="btn btn-success">Agregar</a>
+        <link rel="stylesheet" href="tables.css">
         <p>
 
         </p>
